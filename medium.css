@@ -1,0 +1,68 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffffff;
+}
+
+i {
+    color: #f8b732;
+    font-size: 15px;
+}
+
+header li {
+    visibility: hidden;
+}
+
+#logo {
+    margin-top: 0px;
+    float: left;
+}
+
+#cart {
+    background-color: #f2849e;
+    color: #ffffff;
+    padding: 5px 30%;
+    border: none;
+    font-size: 10px;
+}
+
+#cart:hover {
+    background-color: #ec4b75
+}
+
+#cart i {
+    color: white;
+}
+
+.product-title {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+#book-cover img {
+    size: 30px;
+}
+
+p {
+    font-size: 14px;
+    letter-spacing: auto;
+    line-height: 25px;
+}
+
+.product, .author, .info {
+    border-bottom: #cccccc;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+a {
+    display: block;
+    color: #2028ff;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}

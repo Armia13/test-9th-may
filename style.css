@@ -1,0 +1,99 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #f7f7f7;
+}
+
+i {
+    color: #f8b732;
+    font-size: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+header li {
+    float: right;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+    margin-right: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    list-style: none;
+    background-color: #ffffff;
+}
+
+#logo {
+    margin-top: 0px;
+    float: left;
+}
+
+section {
+    margin-top: 0px;
+    background-color: #ffffff;
+    width: 80%;
+    margin-left: 100PX;
+}
+
+div {
+    margin: 10px;
+}
+
+#cart {
+    background-color: #f2849e;
+    color: #ffffff;
+    padding: 15px 60px;
+    border: none;
+    font-weight: bold;
+}
+
+#cart:hover {
+    background-color: #ec4b75
+}
+
+#cart i {
+    color: white;
+}
+
+.product-title {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+#book-cover {
+    border-right: #cccccc;
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-left: #cccccc;
+    border-left-width: 10px;
+    border-left-style: solid;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: auto;
+    line-height: 30px;
+}
+
+.product, .author, .info {
+    border-bottom: #cccccc;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+a {
+    display: block;
+    color: #2028ff;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
