@@ -2,14 +2,13 @@
 
 html, body {
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 0%;
+    margin: 10px;
     padding: 0%;
     background-color: #ffffff;
 }
 
 i {
     color: #f8b732;
-    font-size: 15px;
 }
 
 nav li {
@@ -51,24 +50,11 @@ nav li {
     color: white;
 }
 
-section {
-    margin-left: 16px
-}
-
-.product-title {
-    display: flex;
-    flex-direction: row;
-}
-
 #book-cover img {
-    border-top: 25px solid #cccccc;
-    border-bottom: 25px solid #cccccc;
+    border-left: 40px solid #cccccc;
+    border-right: 40px solid #cccccc;
     width: 207px;
     height: 300px;
-}
-
-p {
-    font-size: 15px;
 }
 
 .product, .author, .info {
