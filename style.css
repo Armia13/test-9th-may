@@ -27,10 +27,14 @@ nav li {
     display: inline;
     font-weight: bolder;
     font-size: 20px;
-    list-style: none;
+    list-style-type: none;
     padding: 0px 20px;
 }
 
+li a {
+    text-decoration: none;
+    color: black;
+}
 #logo img {
     height: 50px;
     width: 70px;
@@ -95,11 +99,6 @@ p {
 }
 
 a {
-    text-decoration: none;
-}
-
-p a {
-    color: #2028ff;
-    text-decoration: none;
+    text-decoration: #2028ff;
     font-weight: bold;
 }
