@@ -98,7 +98,7 @@ a{
     text-decoration: none;
 }
 
-p a {
+#info a {
     color: #2028ff;
     text-decoration: none;
     font-weight: bold;
