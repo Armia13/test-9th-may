@@ -94,11 +94,11 @@ p {
     border-bottom-style: solid;
 }
 
-a {
+p a {
     text-decoration: none;
 }
 
-#info a {
+a {
     color: #2028ff;
     text-decoration: none;
     font-weight: bold;
